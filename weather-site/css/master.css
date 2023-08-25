@@ -1,0 +1,79 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+
+  margin: 0;
+  padding: 0;
+  background: url("/images/background.jpeg");
+  background-size: cover;
+}
+
+#container {
+  width: 100%;
+  margin: 20px auto;
+
+  box-shadow: 100px 100px 100px rgba(250, 250, 250, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+#citySelector {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  margin-bottom: 10px;
+}
+
+#fetchWeather {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #23586b;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+#fetchWeather:hover {
+  background-color: #1489a4;
+}
+
+#weatherDisplay {
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+
+  color: #fff;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+img.weather-icon {
+  width: auto;
+  height: auto;
+  margin-right: 10px;
+}
